@@ -2,6 +2,7 @@
 
 from string import ascii_lowercase
 
+
 def alphabet_position(text):
     score = 1
     score_dict = {}

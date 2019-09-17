@@ -11,6 +11,6 @@ def bracket_buster(string):
 
 
 print(bracket_buster("Don't [pass to Ramone]"))  # ["pass to Ramone"]
-print(bracket_buster("Don't [sdfs] [pass to Ramone]"))  # ["pass to Ramone"]
-print(bracket_buster(1337))
-print(bracket_buster("[I'm] glad y'all [set it]] off"))
+print(bracket_buster("Don't [test] [pass to Ramone]"))  # ['test', 'pass to Ramone']
+print(bracket_buster(1337))  # Take a seat on the bench.
+print(bracket_buster("[I'm] glad y'all [set it]] off"))  # ["I'm", 'set it']
