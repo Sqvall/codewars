@@ -1,3 +1,5 @@
-const ipToInt32 = (ip) => (ip.split('.').reduce((a, v) => ((a << 8) + (+v)), 0) >>> 0);
+/** https://www.codewars.com/kata/52ea928a1ef5cfec800003ee/solutions/javascript */
+
+const ipToInt32 = (ip) => (ip.split('.').reduce((a, v) => (a * 256 + (+v)))); // (+v) string to number
 
 console.log(ipToInt32("128.32.10.1")); // return: 2149583361
