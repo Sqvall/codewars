@@ -1,4 +1,4 @@
-/** https://www.codewars.com/kata/523f5d21c841566fde000009/solutions/javascript */
+/** https://www.codewars.com/kata/523f5d21c841566fde000009/ */
 
 const arrayDiff = (a, b) => {
   b.map(itemB => a = a.filter(itemA => itemB !== itemA))
