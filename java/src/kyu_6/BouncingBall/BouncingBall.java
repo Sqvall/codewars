@@ -10,7 +10,6 @@ public class BouncingBall {
             count++;
             h = h * bounce;
             if (h > window) count++;
-            else break;
         }
         return count;
     }
