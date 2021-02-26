@@ -11,7 +11,6 @@ def iq_test(numbers):
         else:
             d['Odd'][count] = int(i)
             count += 1
-    print(d)
     if len(d['Even']) < len(d['Odd']):
         return list(d['Even'].keys())[0]
     return list(d['Odd'].keys())[0]
